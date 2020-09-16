@@ -86,3 +86,7 @@ main frame {
     color: #000000;
     display: block;
 }
+.avatar img{
+    width: 70px;
+    height: 25px;
+}
