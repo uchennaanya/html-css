@@ -4,7 +4,9 @@ body {
     padding: 0%;
     box-sizing: border-box;
 }
-
+ h4 {
+    padding: .5rem;
+}
 nav {
     display: flex;
     height: auto;
@@ -67,6 +69,11 @@ main {
 }
 .side-video {
     display: flex;
+    height: 200px;
+    align-content: center;
+}
+.side-frame {
+    width: 210px;
 }
 main .col {
     flex: 1;
@@ -82,7 +89,7 @@ main .col2 {
 }
 main frame {
     height: 250px;
-    width: 50%;
+    width: 30%;
     color: #000000;
     display: block;
 }
