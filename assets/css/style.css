@@ -43,14 +43,25 @@ nav input {
     width: 80%;
     border: .5px solid #cccccc;
     padding: .5rem 1rem;
-    margin-right: auto;
+    /* margin-right: auto; */
+    right: 0;
 }
 nav button {
     width: 10%;
-    margin-left: auto;
+    /* margin-left: auto; */
     border: none;
     border: 1px solid #cccccc;
     padding: 7px .1rem;
+    left: 0;
+}
+.description i {
+    padding: .3rem;
+}
+.description p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(3, 3, 3);
 }
 .description img {
     width: 20px;
@@ -65,7 +76,8 @@ nav button {
     display: inline-block;
     background-color: red;
     color: #ffff;
-    padding: .5rem 1rem;
+    padding: .8rem 1.5rem;
+    font-weight: bold;
     border: none;
     float: right;
 }
@@ -88,7 +100,6 @@ main {
 }
 main .col1 {
     flex: 4;
-    /* border: 1px solid; */
     height: 450px;
     margin-right: 2rem;
 }
@@ -97,25 +108,81 @@ main .col1 {
     height: 400px;
 }
 main .col2 {
-    display: flex;
-    border: 1px solid yellow;
+    float: 5;
+    /* display: flex; */
+    /* border: 1px solid yellow; */
 }
 main .col2 iframe {
-    width: 200px;
+    width: 170px;
     height: 110px;
 }
-main .col3 {
-    flex: 1;
-    /* border: 1px solid red; */
+
+main .col2 div {
+    width: 370px;
+    height: 110px;
+}
+.add-comment {
+    padding: 1rem;
 }
 .add-comment img {
     width: 50px;
     height: 50px;
 }
-.add-comment input[type=text] {
-    border: 2px solid red;
+.add-comment textarea {
+    border: none;
+    background: none;
+    display: inline;
+    border-bottom: 2px solid #cccccc;
+    width: 80%;  
+}
+.add-comment textarea:focus-within{
+    border: none;
+    background: none;
+    display: inline;
+    
+    width: 80%;  
 }
 
 .side-video {
-    /* display: flex/; */
+    display: flex;
+}
+
+.side-video div {
+    padding: .4rem;
+    line-height: 1.3em;
+}
+.side-video a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.side-video i {
+    float: right;
+    top: 0;
+}
+hr {
+    border: .1px solid #f1f1f1;
+    font-weight: lighter;
+}
+
+.right {
+    margin-left: 200px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.right i {
+    color: blue;
+
+}
+.b {
+    padding-right: 20px;
+    display: inline-block;
+}
+.side-video span {
+    padding-bottom: 10px;
+}
+
+footer {
+    height: 330px;
+
 }
