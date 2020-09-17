@@ -1,7 +1,7 @@
 # YOUTUBE CLONE
 
 This project is about cloning the Youtube video player page using HTML5 and CSS3 only.
-![screenshot](screenshot.png)
+![screenshot](assets/images/screenshot.png)
 
 
 ## The following are some the features of this project:
@@ -35,13 +35,17 @@ For one to get started, just clone the repository and open index.html file in yo
 
 **Iris Enaelle Kineza** 
 
-- Github: [KinezaEnaelle] (https://github.com/KinezaEnaelle)
+- Github: [KinezaEnaelle](https://github.com/KinezaEnaelle)
 - Twitter: [@IKineza](https://twitter.com/ikineza)
 - Linkedin: [Iris Enaelle Kineza](https://www.linkedin.com/in/iris-enaelle-kineza-25a676187/)
 
 ## Contributions
 
 Faeture requests and issues are most welcome.
+
+## Live Demo 
+
+https://rawcdn.githack.com/uchennaanya/html-css/eb23efe944bcaefe8bd6ceda0e3f39842d8201d7/index.html
 
 ## Show your support
 
@@ -56,6 +60,3 @@ Give a ⭐️ if you like this project.
 ## License
 
 This project is [GNU](https://github.com/uchennaanya/html-css/blob/add-license-1/LICENSE) licensed.
-
-
-

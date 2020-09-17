@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>
             Youtube Clone
@@ -20,12 +20,12 @@
                 <i class="fa fa-bars fa-lg"></i>
                 <div class="col logo">
                     
-                    <img src="assets/images/YouTube-Logo.png" class="logo">
+                    <img src="assets/images/YouTube-Logo.png" alt="logo" class="logo">
                 </div>
                 <div class="col2"> 
                     <form>
-                        <input type="text" placeholder="Search">
-                        <button><i class="fa fa-search fa-lg"></i></button>
+                        <input type="text" placeholder="Search" name="search">
+                        <button id="search"><i class="fa fa-search fa-lg"></i></button>
                     </form>
                 </div>
                 <div class="col3">
@@ -40,12 +40,11 @@
         <main>
            
             <div class="col1">
-                 <!-- Main video -->
+                 
                 <div class="">
                     <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
                     </iframe>
                 </div>
-                 <!-- Main video ends here -->
 
                 <div class="description" style="display: block;">
                     <div style="float: right;">
@@ -53,24 +52,21 @@
                         <i class="fa fa-thumbs-down"></i>
                         <i class="fa fa-share"> SHARE </i>
                         <i class="fa fa-save"> SAVE</i>
-                        <!-- <img src="assets/images/save icon.png" class="save"> SAVE -->
                         <i class="fa fa-ellipsis-h"></i>
                     </div>
                     <div>
                     <h3>Contributing to Open Source Part I: The Easy Way</h3>
                     <p>60,463 views  •Feb 27, 2014</p>
                     </div>
-                    
                  </div>
                  <hr>
                  <div class="subscribe">
                     <p>
                         <button class="button">Subscribe</button>
-                        <img src="assets/images/7_avatar-512.png">
+                        <img src="assets/images/7_avatar-512.png" alt="Avater">
                          The Odin Project
-                        <p> 1.02K subscribers </p>
-                         
                     </p>
+                    <p> 1.02K subscribers </p>
             
                    <p>
                        How do you contribute to open source?  In this video, 
@@ -79,18 +75,19 @@
                        I'll also describe what kinds of contributions open source software projects are typically looking for. 
                        As an example, I use submitting a student solution to a web development exercise from The Odin Project, 
                        a free online curriculum for learning web development with Ruby on Rails. 
-                       You can find more information about that project at <a href="http://theodinproject.com">http://theodinproject.com</a> <p>SHOW MORE</p>
+                       You can find more information about that project at <a href="http://theodinproject.com">http://theodinproject.com</a>
                    </p>
+                   <p>SHOW MORE</p>
                  
                 </div>
                 <hr>
                 <div class="comment">
-                    17 Comments &nbsp; &nbsp; <img src="assets/images/sort.png" class="sort"> &nbsp; &nbsp; SORT BY
+                    17 Comments &nbsp; &nbsp; <img src="assets/images/sort.png" alt="sort" class="sort"> &nbsp; &nbsp; SORT BY
                 </div>
 
                <div class="add-comment">
-                   <img src="assets/images/7_avatar-512.png">
-                   <textarea name="" id="" class="add-comment" placeholder="Add a public comment..."></textarea>
+                   <img src="assets/images/7_avatar-512.png" alt="avater">
+                   <textarea name="comment" id="msg" class="add-comment" placeholder="Add a public comment..."></textarea>
                </div>
 
             </div>
@@ -113,7 +110,27 @@
                 </div>
                 <hr>
                 <div class="side-video">
-                    
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class=""> 
+                    </iframe>
+                    <div>
+                        <i class="fa fa-ellipsis-v"></i>
+                        <b class="b">Description of videos here. </b><br>
+                        <a href="#">Video Name</a> <br>
+                        1.3M views <a href="#">3 years</a> 
+                    </div>
+                </div>
+                <div class="side-video">
+                
+                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class=""> 
+                    </iframe>
+                    <div>
+                        <i class="fa fa-ellipsis-v"></i>
+                        <b class="b">Description of videos here. </b><br>
+                        <a href="#">Video Name</a> <br>
+                        1.3M views <a href="#">3 years</a> 
+                    </div>
+                </div>
+                <div class="side-video">
                     
                     <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class=""> 
                     </iframe>
@@ -126,7 +143,6 @@
                 </div>
                 <div class="side-video">
                     
-                    
                     <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class=""> 
                     </iframe>
                     <div>
@@ -137,8 +153,7 @@
                     </div>
                 </div>
                 <div class="side-video">
-                    
-                    
+                  
                     <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class=""> 
                     </iframe>
                     <div>
@@ -149,8 +164,7 @@
                     </div>
                 </div>
                 <div class="side-video">
-                    
-                    
+                 
                     <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class=""> 
                     </iframe>
                     <div>
@@ -161,8 +175,7 @@
                     </div>
                 </div>
                 <div class="side-video">
-                    
-                    
+                   
                     <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class=""> 
                     </iframe>
                     <div>
@@ -171,32 +184,7 @@
                         <a href="#">Video Name</a> <br>
                         1.3M views <a href="#">3 years</a> 
                     </div>
-                </div>
-                <div class="side-video">
-                    
-                    
-                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class=""> 
-                    </iframe>
-                    <div>
-                        <i class="fa fa-ellipsis-v"></i>
-                        <b class="b">Description of videos here. </b><br>
-                        <a href="#">Video Name</a> <br>
-                        1.3M views <a href="#">3 years</a> 
-                    </div>
-                </div>
-                <div class="side-video">
-                    
-                    
-                    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" class=""> 
-                    </iframe>
-                    <div>
-                        <i class="fa fa-ellipsis-v"></i>
-                        <b class="b">Description of videos here. </b><br>
-                        <a href="#">Video Name</a> <br>
-                        1.3M views <a href="#">3 years</a> 
-                    </div>
-                </div>
-                    
+                </div>     
             </div>
         </main>
         <footer>
