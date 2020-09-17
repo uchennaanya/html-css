@@ -53,9 +53,9 @@ Give a ⭐️ if you like this project.
 - icons used from [fontawesome](https://fontawesome.com/)
 
 
-## 📝 License
+## License
 
-This project is [MIT](https://github.com/uchennaanya/html-css/blob/add-license-1/LICENSE) licensed.
+This project is [GNU](https://github.com/uchennaanya/html-css/blob/add-license-1/LICENSE) licensed.
 
 
 
