@@ -4,7 +4,6 @@ This project is about cloning the Youtube video player page using HTML5 and CSS3
 ![screenshot](screenshot.png)
 
 
-
 ## The following are some the features of this project:
 
 1. Has a navigation search bar for searching any video
