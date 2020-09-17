@@ -3,6 +3,7 @@ body {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    background-color: #F9F9F9;
 }
  h4 {
     padding: .5rem;
@@ -13,10 +14,12 @@ nav {
     padding: .5rem;
     align-items: center;
     justify-content: space-between;
+    background-color: #ffffff;
 }
 
 nav i {
     margin: 0 10px;
+    
 }
 
 .logo img{
@@ -26,74 +29,93 @@ nav i {
 
 nav .col {
     flex: 1;
-    /* border: 1px solid #cccccc; */
-    /* width: 33.333333%; */
 }
 nav .col2 {
     flex: 2;
-    /* border: 1px solid #cccccc; */
-    /* width: 33.333333%; */
+    border: none;
 }
 nav .col3 {
     flex: 1;
-    /* border: 1px solid #cccccc; */
     text-align: end;
-    /* width: 23.333333%; */
 }
 
-.searchBar {
-    width: 20%;
-    display: inline-block;
-    
-    padding: 0;
-    margin-left: 17%;
-}
 nav input {
     width: 80%;
     border: .5px solid #cccccc;
     padding: .5rem 1rem;
-    margin: 0;
+    margin-right: auto;
 }
 nav button {
     width: 10%;
-    margin: 0;
+    margin-left: auto;
     border: none;
     border: 1px solid #cccccc;
     padding: 7px .1rem;
 }
-main {
-    background-color: #F9F9F9;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
+.description img {
+    width: 20px;
+    height: 20px;
 }
-.side-video {
-    display: flex;
-    height: 200px;
-    align-content: center;
+.subscribe img {
+    width: 50px;
+    height: 50px;
 }
-.side-frame {
-    width: 210px;
+
+.button {
+    display: inline-block;
+    background-color: red;
+    color: #ffff;
+    padding: .5rem 1rem;
+    border: none;
+    float: right;
 }
-main .col {
-    flex: 1;
-    width: 80%;
-    margin: 2rem 0 0 3rem;
-    max-height: 350px;
+
+.comment img {
+    width: 20px;
+    height: 20px;
 }
-main .col2 {
-    flex: 1;
-    
-    border: 1px solid #cccccc;
-    margin: 2rem 3rem 0 2rem;
-}
-main frame {
-    height: 250px;
-    width: 30%;
-    color: #000000;
-    display: block;
-}
+
 .avatar img{
     width: 70px;
     height: 25px;
+}
+
+main {
+    display: flex;
+    padding: 2rem 4rem;
+    height: 100vh;
+    justify-content: space-around;
+}
+main .col1 {
+    flex: 4;
+    /* border: 1px solid; */
+    height: 450px;
+    margin-right: 2rem;
+}
+.col1 iframe {
+    width: 100%;
+    height: 400px;
+}
+main .col2 {
+    display: flex;
+    border: 1px solid yellow;
+}
+main .col2 iframe {
+    width: 200px;
+    height: 110px;
+}
+main .col3 {
+    flex: 1;
+    /* border: 1px solid red; */
+}
+.add-comment img {
+    width: 50px;
+    height: 50px;
+}
+.add-comment input[type=text] {
+    border: 2px solid red;
+}
+
+.side-video {
+    /* display: flex/; */
 }
